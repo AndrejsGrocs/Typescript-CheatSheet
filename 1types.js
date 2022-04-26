@@ -1,4 +1,4 @@
-var str = 'Hello';
+var str = 'Hello 1';
 console.log(str);
 var isFetching = true;
 var isLoading = false;
