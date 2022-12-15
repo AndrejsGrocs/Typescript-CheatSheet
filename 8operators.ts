@@ -24,3 +24,6 @@ type UserKeysNoMeta = Exclude<keyof User, '_id' | 'createdAt'>  //case we need t
 type UserKeysNoMeta2 = Pick<User, 'name' | 'email'>  // case we need to take some keys from object, make them stay
 
 const user1: UserKeysNoMeta ='name'
+
+
+//some test string
